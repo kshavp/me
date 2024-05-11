@@ -1,7 +1,6 @@
-// import project1 from "../assets/projects/project-1.jpg";
-// import project2 from "../assets/projects/project-2.jpg";
-// import project3 from "../assets/projects/project-3.jpg";
-// import project4 from "../assets/projects/project-4.jpg";
+import gssoc from "../assets/gssoc.png";
+import paloalto from "../assets/paloalto.png";
+import dseu from "../assets/dseu.png";
 
 export const HERO_CONTENT_DEV = `I am a full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 export const ABOUT_SEC = `I am familiar with modern day threats and tools to handle the security of Network, Devices and primarily the Applications, I have conducted seminar and workshops for the awareness among folks`
@@ -14,51 +13,59 @@ export const EXPERIENCES = [
     company: "GirlScript Summer of Code 2024",
     description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
     technologies: ["TypeScript","Node", "Express", "React", "MongoDB", "TailWind"],
+    image: gssoc,
+    location: "Remote"
   },
   {
     year: "Jan 2024 - March 2024",
     role: "Intern",
-    company: "Palo Alto Network",
+    company: "Palo Alto Networks (Facilitated by AICTE)",
     description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Endpoint Security", "Network Seccurity", "Prisma Cloud", "Cortex XDR"],
+    technologies: ["Endpoint Security", "Network Security", "Prisma Cloud", "Cortex XDR", "Security Operations"],
+    image: paloalto,
+    location: "Remote"
   },
   {
     year: "Aug 2022 - Oct 2022",
     role: "Web Management Intern",
-    company: "DSEU, Govt of NCT Delhi",
+    company: "Delhi Skill and Entrepreneurship University - Govt of NCT Delhi",
     description: `Contributed to the commercial perspective of web development involving PHP, JavaScript, MySQL and WordPress.. Worked closely with product managers to prioritize features and enhancements.`,
     technologies: ["PHP", "MySQL", "WordPress", "JavaScript", "BootStrap"],
+    image: dseu,
+    location: "Delhi"
   },
 ];
 
 export const PROJECTS = [
   {
     title: "EcoTrac, 2nd Position, Inter-departmental Hackathon",
-    // image: project1,
     description:
       "A personalized fully working carbon footprint tracking system with an in built reward system in a span of 8 hours in the Inter-departmental Hackathon",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
-  },
-  {
-    title: "Krishna Sewa Sansthan",
-    // image: project2,
-    description:
-      "A trust based website for a client to show case NGO's work and accept donations.",
-    technologies: ["HTML", "Tailwind CSS", "Firebase", "JavaScript"],
+    technologies: ["NodeJS", "ExpressJS" ,"React", "MongoDB", "TailwindCSS"],
   },
   {
     title: "BitSync",
-    // image: project3,
     description:
       "A a peer-to-peer file sharing web-app using NodeJS and Web Socket Technology (Socket.io)",
-    technologies: ["NodeJS", "ExpressJS", "Socket.io", "Vanilla CSS"],
+    technologies: ["TypeScript", "NodeJS", "ExpressJS", "Socket.io", "Vanilla CSS"],
+  },
+  {
+    title: "Jaxel",
+    description:
+      "A mini-web tool to covert CSV to JSON and vice versa",
+    technologies: ["NodeJS", "ExpressJS", "ReactJS", "TailwindCSS"],
   },
   {
     title: "RailYatra Corridor",
-    // image: project4,
     description:
       "A python based desktop application for rail e-ticketing, with features like ticket booking, cancellation, seat availability and so on.",
     technologies: ["Python", "Tkinter", "MySQL"],
+  },
+  {
+    title: "Krishna Sewa Sansthan",
+    description:
+      "A trust based website for a client to show case NGO's work and accept donations.",
+    technologies: ["HTML", "Tailwind CSS", "Firebase", "JavaScript"],
   },
 ];
 

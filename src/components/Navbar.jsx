@@ -9,22 +9,22 @@ const Navbar = () => {
 
         <div className='hidden md:flex items-center gap-x-12 text-lg'>
             <p className='hover:-translate-y-1 transition'>About</p>
+            <p className='hover:-translate-y-1 transition'>Skills</p>
             <p className='hover:-translate-y-1 transition'>Experience</p>
             <p className='hover:-translate-y-1 transition'>Projects</p>
             <p className='hover:-translate-y-1 transition'>Acheivements</p>
-            <p className='hover:-translate-y-1 transition'>Skills</p>
             <p className='hover:-translate-y-1 transition'>Contact</p>
         </div>
 
         <div className='flex items-center justify-center mt-6 md:mt-0'>
             <ul className='flex items-center gap-x-4 text-3xl'>
-                <li className=''><a href="https://www.linkedin.com/in/keshavpriyam/">
+                <li className='hover:bg-neutral-500 transition duration-200'><a href="https://www.linkedin.com/in/keshavpriyam/">
                     <FaLinkedinIn />
                     </a></li>
-                <li className=''><a href="https://github.com/kshavp">
+                <li className='hover:bg-neutral-500 transition duration-200'><a href="https://github.com/kshavp">
                     <FaGithub />
                     </a></li>
-                <li className=''><a href="https://twitter.com/keshavpriyam">
+                <li className='hover:bg-neutral-500 transition duration-200'><a href="https://twitter.com/keshavpriyam">
                     <FaSquareXTwitter />
                     </a></li>
             </ul>
