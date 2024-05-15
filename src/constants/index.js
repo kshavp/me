@@ -12,7 +12,7 @@ export const EXPERIENCES = [
     role: "Contributor",
     company: "GirlScript Summer of Code 2024",
     description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["TypeScript","Node", "Express", "React", "MongoDB", "TailWind"],
+    technologies: ["TypeScript","Node", "Express", "React", "MongoDB", "TailWindCSS"],
     image: gssoc,
     location: "Remote"
   },
@@ -38,9 +38,9 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "EcoTrac, 2nd Position, Inter-departmental Hackathon",
+    title: "EcoTrac",
     description:
-      "A personalized fully working carbon footprint tracking system with an in built reward system in a span of 8 hours in the Inter-departmental Hackathon",
+      "A personalized fully working carbon footprint tracking system with an in built reward system in a span of 8 hours in the Inter-department Hackathon",
     technologies: ["NodeJS", "ExpressJS" ,"React", "MongoDB", "TailwindCSS"],
   },
   {
@@ -65,7 +65,7 @@ export const PROJECTS = [
     title: "Krishna Sewa Sansthan",
     description:
       "A trust based website for a client to show case NGO's work and accept donations.",
-    technologies: ["HTML", "Tailwind CSS", "Firebase", "JavaScript"],
+    technologies: ["HTML", "TailwindCSS", "Firebase", "JavaScript"],
   },
 ];
 
