@@ -18,13 +18,13 @@ const Navbar = () => {
 
         <div className='flex items-center justify-center mt-6 md:mt-0'>
             <ul className='flex items-center gap-x-4 text-3xl'>
-                <li className='hover:bg-neutral-500 transition duration-200'><a href="https://www.linkedin.com/in/keshavpriyam/">
+                <li className='hover:bg-neutral-500 transition duration-200'><a href="https://www.linkedin.com/in/keshavpriyam/" target='_blank'>
                     <FaLinkedinIn />
                     </a></li>
-                <li className='hover:bg-neutral-500 transition duration-200'><a href="https://github.com/kshavp">
+                <li className='hover:bg-neutral-500 transition duration-200'><a href="https://github.com/kshavp" target='_blank'>
                     <FaGithub />
                     </a></li>
-                <li className='hover:bg-neutral-500 transition duration-200'><a href="https://twitter.com/keshavpriyam">
+                <li className='hover:bg-neutral-500 transition duration-200'><a href="https://twitter.com/keshavpriyam" target='_blank'>
                     <FaSquareXTwitter />
                     </a></li>
             </ul>
