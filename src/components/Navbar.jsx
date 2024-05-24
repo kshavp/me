@@ -1,13 +1,20 @@
 // import React from 'react';
 import { FaLinkedinIn, FaGithub} from 'react-icons/fa';
 import { FaSquareXTwitter } from 'react-icons/fa6';
+import { motion } from "framer-motion";
 
 const Navbar = () => {
   return (
-    <nav className='md:flex justify-between text-neutral-200 m-8 mb-10 md:mb-30'>
+    <motion.nav 
+    initial={{y:-100, opacity:0}}
+    // whileInView={{y:0, opacity:1}}
+    animate={{y:0, opacity:1}}
+    transition={{duration:1, delay:0.5}}
+    viewport={{ once: true }}
+    className='md:flex justify-between text-neutral-200 m-8 mb-10 md:mb-30'>
         <div><p className='text-3xl font-bold text-center'>keshavpriyam</p></div>
 
-        <div className='hidden md:flex items-center gap-x-12 text-lg'>
+        <div className='hidden md:flex items-center gap-x-12 text-lg font-thin'>
             <p className='hover:-translate-y-1 transition'>About</p>
             <p className='hover:-translate-y-1 transition'>Skills</p>
             <p className='hover:-translate-y-1 transition'>Experience</p>
@@ -30,7 +37,7 @@ const Navbar = () => {
             </ul>
         </div>
 
-    </nav>
+    </motion.nav>
   )
 }
 

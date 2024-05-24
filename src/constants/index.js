@@ -1,10 +1,16 @@
 import gssoc from "../assets/gssoc.png";
 import paloalto from "../assets/paloalto.png";
 import dseu from "../assets/dseu.png";
+import nips from "../assets/nips.jpg";
+import ggsipu from "../assets/ggsipu.png";
+import srmist from "../assets/srmist.png";
 
-export const HERO_CONTENT_DEV = `I am a full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
-export const ABOUT_SEC = `I am familiar with modern day threats and tools to handle the security of Network, Devices and primarily the Applications, I have conducted seminar and workshops for the awareness among folks`
-export const ABOUT_DEV = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_DEV_SEC = `Expertised in Full Stack Development and Cyber Security with a knack for crafting robust,
+                        secure and scalable applications.
+                          Familiar with modern day threats and tools to handle the security 
+                          of Network, Devices and the Applications, 
+                          I do conduct discussions and workshops for the relevance of awareness among folks.
+                          I can be found contributing regularly to Open-Source projects.`;
 
 export const EXPERIENCES = [
   {
@@ -67,6 +73,27 @@ export const PROJECTS = [
       "A trust based website for a client to show case NGO's work and accept donations.",
     technologies: ["HTML", "TailwindCSS", "Firebase", "JavaScript"],
   },
+];
+
+export const Edu = [
+  {
+    institute: "Nehru International Public School, Noida",
+    course: "Secondary Education",
+    image: nips,
+    duration:"2007-2020"
+  },
+  {
+    institute: "Guru Gobind Singh Indraprastha University",
+    course: "Bachelors, Computer Applications",
+    image: ggsipu,
+    duration:"2020-2023"
+  },
+  {
+    institute: "SRM Institute of Science and Technology",
+    course: "Masters, Computer Applications",
+    image: srmist,
+    duration:"2023-2025"
+  }
 ];
 
 export const CONTACT = {

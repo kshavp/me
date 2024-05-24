@@ -1,5 +1,5 @@
 import './App.css'
-import About from './components/About'
+import About from './components/About/About'
 import Contact from './components/Contact'
 import Experience from './components/Experience'
 import Hero from './components/Hero'
