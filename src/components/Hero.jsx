@@ -1,8 +1,9 @@
 // import React from 'react'
 import { motion } from "framer-motion";
+import imgURL from '../assets/me.jpg'
 
 const Hero = () => {
-  const imgURL = `https://media.licdn.com/dms/image/D5603AQHsVkTlJXP_mw/profile-displayphoto-shrink_800_800/0/1705930018734?e=1720656000&v=beta&t=KbUkuH3BGfdhjed63wlSKH54QHMAC8I__FQXhg-eWBo`;
+  
   return (
     <div className="border-b border-neutral-900 pb-4 lg:mb-35 md:pt-16">
       <div className="flex flex-wrap">

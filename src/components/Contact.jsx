@@ -4,7 +4,7 @@ const Contact = () => {
   return (
     <div className="border-b border-neutral-900 pb-4 lg:mb-35 md:pt-16 text-neutral-200">
         <h2 className='my-12 text-center text-4xl '>Contact Me</h2>
-        <form action="#" className="space-y-8 md:w-1/2 w-2/3 mx-auto">
+        <form action="#" className="space-y-8 md:w-1/2 w-2/3 mx-auto" >
           <div>
               <input type="email" className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light" placeholder="Email" required />
           </div>
