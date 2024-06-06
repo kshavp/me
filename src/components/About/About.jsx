@@ -6,7 +6,7 @@ import Education from "./Education";
 
 const About = () => {
   return (
-    <div className="border-b border-neutral-900 pb-4 lg:mb-35 md:pt-16 text-neutral-200">
+    <div className="border-b border-neutral-900 pb-4 lg:mb-35 md:pt-16 text-neutral-200 md:h-screen">
       <motion.h2
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}

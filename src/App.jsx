@@ -16,11 +16,11 @@ function App() {
       </div>
       <Navbar />
       <div id='hero'><Hero /></div>
-      <div id='about'><About /></div>
-      <div id='skills'><Skills /></div>
-      <div id='exp'><Experience /></div>
-      <div id='project'><Project /></div>
-      <div id='contact'><Contact /></div>
+      <div id='About'><About /></div>
+      <div id='Skills'><Skills /></div>
+      <div id='Experience'><Experience /></div>
+      <div id='Projects'><Project /></div>
+      <div id='Contact'><Contact /></div>
     </div>
   )
 }

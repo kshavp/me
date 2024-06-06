@@ -17,8 +17,8 @@ export const EXPERIENCES = [
     year: "May 2024 - Present",
     role: "Contributor",
     company: "GirlScript Summer of Code 2024",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["TypeScript","Node", "Express", "React", "MongoDB", "TailWindCSS"],
+    description: `Designed and developed user interfaces for web applications using Next.js and React.js. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
+    technologies: ["TypeScript","Node", "Express", "React", "MongoDB", "TailwindCSS"],
     image: gssoc,
     location: "Remote"
   },
@@ -26,7 +26,9 @@ export const EXPERIENCES = [
     year: "Jan 2024 - March 2024",
     role: "Intern",
     company: "Palo Alto Networks (Facilitated by AICTE)",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
+    description: `Gained familiarity with Network Security, Cloud Security and End Point Security to analyze security threats.
+    Gone through Prisma Cloud and Cortex XDR for threat detection with behavioral analytics and to speed up investigations by 50%.
+    Learning on Next Generation Firewalls and Advanced Persistent Threats for defensive measures against 80% of threats.`,
     technologies: ["Endpoint Security", "Network Security", "Prisma Cloud", "Cortex XDR", "Security Operations"],
     image: paloalto,
     location: "Remote"

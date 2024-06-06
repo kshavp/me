@@ -5,7 +5,7 @@ import imgURL from '../assets/me.jpg'
 const Hero = () => {
   
   return (
-    <div className="border-b border-neutral-900 pb-4 lg:mb-35 md:pt-16">
+    <div className="border-b border-neutral-900 pb-4 lg:mb-35 md:pt-16 md:h-full">
       <div className="flex flex-wrap">
         <div className="w-full">
           <motion.div

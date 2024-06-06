@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 const Experience = () => {
   return (
-    <div className="border-b border-neutral-900 pb-4 lg:mb-35 md:pt-16 text-neutral-200">
+    <div className="border-b border-neutral-900 pb-4 lg:mb-35 md:pt-16 text-neutral-200 md:h-full">
       <h2 className="my-12 text-center text-4xl ">Experience</h2>
       <div className="m-8 md:m-2">
         {EXPERIENCES.map((exp, index) => (
