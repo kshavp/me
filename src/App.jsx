@@ -2,6 +2,7 @@ import './App.css'
 import About from './components/About/About'
 import Contact from './components/Contact'
 import Experience from './components/Experience'
+import Footer from './components/Footer'
 import Hero from './components/Hero'
 import Navbar from './components/Navbar'
 import Project from './components/Project'
@@ -21,6 +22,7 @@ function App() {
       <div id='Experience'><Experience /></div>
       <div id='Projects'><Project /></div>
       <div id='Contact'><Contact /></div>
+      <Footer />
     </div>
   )
 }

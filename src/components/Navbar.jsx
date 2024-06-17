@@ -4,7 +4,13 @@ import { FaSquareXTwitter } from "react-icons/fa6";
 import { motion } from "framer-motion";
 import { Link } from "react-scroll";
 
-const navElements = ["About", "Skills", "Experience", "Projects", "Contact"];
+const navElements = [
+  "About",
+  "Skills",
+  "Experience",
+  "Projects",
+  "Contact",
+];
 
 const Navbar = () => {
   return (
@@ -34,6 +40,7 @@ const Navbar = () => {
             {element}
           </Link>
         ))}
+        <a className="hover:border-neutral-200 border-neutral-600 border-b transition duration-300" href="https://drive.google.com/file/d/1nxb5gnZjbRPITL1zhph7WMBQHEu9z6WS/view">Resume</a>
       </div>
 
       <div className="flex items-center justify-center mt-6 md:mt-0">
